@@ -6,37 +6,51 @@
 }
 
 .logo {
-  height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 900ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #ff09f3aa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff7a0e;
+  cursor: pointer;
+  transition: border-color 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.button:hover {
+  border-color: #cfcfcf;
 }
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
 
 .card {
-  padding: 2em;
+  padding-bottom: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.footer {
+  position: fixed; /* Para manter o footer fixo na tela */
+  bottom: 0; /* Posiciona o footer no final da tela */
+  right: 0; /* Posiciona o footer no canto direito */
+  padding: 10px; /* Adiciona algum espaçamento interno para o conteúdo do footer */
+  color: #441830; /* Cor do texto opcional */
+}
+
+.footer p {
+  font-size: 11px;
 }

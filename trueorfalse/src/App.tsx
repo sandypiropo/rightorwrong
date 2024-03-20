@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,26 +6,30 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <div className='logo'>
+          <h2>THE</h2>
+          <h1>TRUE</h1>
+          <h2>OR</h2>
+          <h1>FALSE</h1>
+          <h2>LESBIAN GAME</h2>
+        </div>
+        <div className="card"> 
+          <p>A question game that involves the sapphic-lesbian world</p>
+          <p>designed to test your level of homosexuality</p>
+        </div>
+        <div className="read-the-docs">
+          <button className="button" onClick={() => setCount((count) => count + 1)}>
+            START {count}
+          </button>
+          <p > 
+            Click to Start
+          </p>
+        </div>
+          
+        <div className='footer'>          
+          <p>Inspired in The Highe Lower Game</p>
+          <p>&copy; 2024 Developed by Sandy Pirôpo. All rights reserved.</p>
+        </div>
     </>
   )
 }
