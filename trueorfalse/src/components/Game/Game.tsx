@@ -5,7 +5,7 @@ import React from 'react';
 const GamePage: React.FC = () => {
   return (
     <div>
-      {/* Conteúdo da página de jogo */}
+      <h1>JOGANDOOOOOOOOOOOOOOOO</h1>
     </div>
   );
 }
