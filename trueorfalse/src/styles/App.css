@@ -1,3 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #686868c7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Aqui começa a formatação do app.css */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -10,6 +61,7 @@
   will-change: filter;
   transition: filter 900ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #ff09f3aa);
 }
@@ -29,11 +81,11 @@
 .button:hover {
   border-color: #cfcfcf;
 }
+
 .button:focus,
 .button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
 
 .card {
   padding-bottom: 2em;
@@ -44,11 +96,11 @@
 }
 
 .footer {
-  position: fixed; /* Para manter o footer fixo na tela */
-  bottom: 0; /* Posiciona o footer no final da tela */
-  right: 0; /* Posiciona o footer no canto direito */
-  padding: 10px; /* Adiciona algum espaçamento interno para o conteúdo do footer */
-  color: #441830; /* Cor do texto opcional */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: #441830;
 }
 
 .footer p {

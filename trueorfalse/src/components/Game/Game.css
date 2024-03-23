@@ -1,0 +1,9 @@
+/* game.css */
+ 
+.game-page {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background-color: aliceblue;
+}
+
