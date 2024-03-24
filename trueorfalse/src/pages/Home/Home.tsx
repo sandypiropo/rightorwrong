@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Game from '../Game/Game';
+import Button from '../../components/buttonhome/ButtonHome';
 import './Home.css';
 
 function Home() {
@@ -25,15 +26,9 @@ function Home() {
                   <p>designed to test your level of homosexuality</p>
                 </div>
                 <div className="read-the-docs">
-                  <button
-                    className="button"
-                    onClick={() => setGameStarted(true)}
-                  >
-                    START
-                  </button>
+                  <Button onClick={() => setGameStarted(true)}/> 
                   <p>Click to Start</p>
                 </div>
-
                 <div className="footer">
                   <p>Inspired in The Highe Lower Game</p>
                   <p>

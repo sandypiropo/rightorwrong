@@ -23,14 +23,13 @@
   width: 100%;
   height: 100%;
   background-color: rgba(73, 0, 73, 0.8); /* Cor roxa com 50% de opacidade */
-
   z-index: 0; /* Garante que o overlay fique atrás do conteúdo */
 }
 
 .content {
-
+  position: relative;
   z-index: 1;
-/*  border: 4px solid rgb(255, 255, 255);*/
+  /*border: 4px solid rgb(255, 255, 255);*/
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -70,13 +69,14 @@
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ff7a0e;
+  background-color: #ff0eeb;
+  color: white;
   cursor: pointer;
-  transition: border-color 0.5s;
+  transition: border-color 0.9s;
 }
   
 .button:hover {
- border-color: #833b3b;
+ border-color: #ffffff;
 }
   
 .button:focus,

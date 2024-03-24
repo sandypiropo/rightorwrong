@@ -1,5 +1,8 @@
-/* game.css */
-
-.game-page {
-    background-color: aqua;
+.game-bg {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: chartreuse;
+  border: 4px solid rgb(255, 255, 255);
 }
