@@ -1,9 +1,22 @@
-.game-bg {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-
+.left-side {
+  width: 50%;
+  height: 100vh; /* Ocupa toda a altura da viewport */
+  background-color: #28a745; 
+  float: left;
+  box-sizing: border-box; /* Inclui padding e borda na largura */
+}
+.right-side {
+  width: 50%;
+  height: 100vh; 
+  background-color: #464646; 
+  float: left;
+  box-sizing: border-box; 
+}
+.game-content {
+  width: 100%; /* Ocupa toda a largura do container pai */
+  overflow: hidden; /* Para lidar com a flutuação das divs filhas */
 }
 
+.game-bg {
+  width: 100vw; /* Ocupa toda a largura da viewport */
+}
