@@ -1,22 +1,40 @@
-.button-true {
+.left-side {
+    width: 50%;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #28a745; 
+    float: left;
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+}
+.right-side {
+    width: 50%;
+    height: 100vh; 
+    background-color: #464646; 
+    float: left;
+    box-sizing: border-box; 
+}
+.game-content {
+    width: 100%; /* Ocupa toda a largura do container pai */
+    overflow: hidden; /* Para lidar com a flutuação das divs filhas */
+}
+
+.game-bg {
+    width: 100vw; /* Ocupa toda a largura da viewport */
+}
+
+
+.button-true,
+.button-false {
     display: inline-block;
-    background-color: #28a745; /* Cor de fundo para "true" */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor quando passar por cima */
-    margin-right: 10px; /* Margem direita para espaçamento entre os botões */
+    background-color: #28a745; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-right: 10px; 
 }
 
 .button-false {
-    display: inline-block;
-    background-color: #dc3545; /* Cor de fundo para "false" */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor quando passar por cima */
+    background-color: #dc3545; 
 }

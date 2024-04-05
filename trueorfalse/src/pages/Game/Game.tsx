@@ -8,11 +8,11 @@ const GamePage: React.FC = () => {
     <div className="game-bg">
       <div className="game-content">
         <div className="left-side">
-          <h1>JOGANDOOOOOOOOOOOOOOOO</h1>
-          <ButtonGame onClick={() => console.log("Botão clicado")} /> 
+          <h1>IMAGEM</h1>
         </div>
         <div className="right-side">
-          <h1>IMAGEMMMMMMMMMM</h1>
+          <h1>BOTOES</h1>
+          <ButtonGame onClick={() => console.log("Botão clicado")} /> 
         </div>
       </div>
     </div>
